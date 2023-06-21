@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Boca Abajo Boca Arriba</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html"><img src="images/logo.svg" alt="Logo BocaAbajo" id="logo"></a>
+                    <a href="index.html#nuestrapropuesta" class="active">Nosotros</a>
+                    <a href="experiencias.html">Experiencias</a>
+                    <a href="index.html#formulario">Contacto</a>
+                    <a href="index.html#reservas">Reservas</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>            
+     </nav>
+        <article class="principal">
+            <div>
+                <img src="images/banner-principal.jpg" alt="" class="bannerprincipal">
+            </div>
+        </article>
+        <section>
+            <section id="nuestrapropuesta" class="banner-secundario4">
+                <div class="container1">
+                    <h1>Nuestra Propuesta: 
+                        <br>Boca Abajo es nuestro sótano de experiencias. Una cocina abierta que recibe a distintos cocineros y se transforma en un restaurante secreto de no más de veinte cubiertos. Convirtiéndolo en una experiencia única.
+                        </br>
+                        Cada semana hay una propuesta diferente, donde todas las noches hay una misma consigna: la fiesta termina cuando se apagan las velas.
+                    </h1>
+                </div>
+            </section>
+        </section>
+        <div>
+            <div class="tercero">
+                <img src="images/1.JPG">
+                <img src="images/2.JPG">
+                <img src="images/3.JPG">
+                <img src="images/4.JPG">
+            </div>
+        </div>
+        <div>
+            <article>
+                <div id="reservas" class="center-button">
+                    <img src="images/calendar.svg" class="images-calendar">
+                    <div class="caja2">Próximos Eventos</div>
+                    <a href="https://bocabajo.meitre.com/" target="_blank" class="boton1 botondetalle">VER MÁS</a>
+            </article>
+        </div>
+    <div id="contacto">
+    <div class="contactform">
+        <br> <br>
+        <form action="action_page.php" id="formulario">
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Nombre" class="form-button" >
+        
+            <label for="lname">E-mail</label>
+            <input type="email" id="lname" name="lastname" placeholder="E-mail" class="form-button">
+        
+            <label for="country">Motivo</label>
+            <br>
+            <select id="country" name="country">
+                <option value="australia">Regalo</option>
+                <option value="canada">Aniversario</option>
+                <option value="usa">Cumpleaños</option>
+                <option value="usa">Otros</option>
+            </select>
+            <br>
+            <label for="subject">Mensaje</label>
+            <textarea id="subject" name="subject" placeholder="Dejanos tu mensaje.." style="height:200px"></textarea>
+        
+            <input class="button2" type="submit"><Enviar mensaje></Enviar Mensaje>
+        </form>
+    </div>
+
+    <div class="row primary">
+        <div class="column about">
+          <h3>Conectate</h3>
+          <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </p>
+          <div class="social">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-linkedin-square"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+        </div>
+      
+        <div class="column link">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#support">Support</a></li>
+          </ul>
+        </div>
+      
+        <div class="column subscribe">
+          <h3>Newsletter</h3>
+          <div>
+            <input type="email" placeholder="E - MAIL" class="inputbutton" />
+            <button class="button3">SUSCBRIBIRME</button>
+          </div>
+        </div>
+      </div>
+      <div class="row copyright">
+  <div class="footer-menu">
+  <a href="">Home</a>
+  <a href="">F.A.Q</a>
+  <a href="">Cookies Policy</a>
+  <a href="">Terms Of Service</a>
+  <a href="">Support</a>
+  </div>
+   <p>Copyright &copy; 2023</p>
+</div>
+<script type="text/javascript">
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else { 
+            x.className = "topnav";
+        }
+    }
+</script>
+</html>
